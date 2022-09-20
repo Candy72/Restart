@@ -1,0 +1,19 @@
+# screen sharing service (sss)
+
+data
+    student name
+    student id
+
+functions
+    select random student
+    list of current students
+    list of students who have shared
+   
+dev
+    export to database
+    group access/is online
+    two lists shared and not shared
+    loop lists
+    remove student after selected
+    update student list
+    handle absence 

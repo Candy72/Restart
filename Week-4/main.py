@@ -1,3 +1,6 @@
+# To run >
+# uvicorn main:app --reload
+
 from fastapi import FastAPI
 
 app = FastAPI()
@@ -15,6 +18,5 @@ def list_tournaments():
 def stats():
     return { 
         "mvp" : "Jordan",
-        "points_scored" : 9002,
-            }
-    
+        "points_scored" : 9005,
+    }
